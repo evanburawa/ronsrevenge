@@ -1,0 +1,266 @@
+#container{
+
+}
+
+#intro-bg{
+    width:800px;
+    
+    /*height:800px;*/
+    height:720px;
+   
+    border:1px solid;
+    background-image: url('../img/intro_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: -200px 0px;  
+}
+
+#video{
+    border:3px solid;
+    border-color:#FEFEFE;
+    width: 350px;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    position: absolute;
+    z-index:1;
+
+    top:350px;
+    left:100px;
+}
+
+
+#player-container{
+    margin-top:20px;
+    margin-left: 250px;
+    width:300px;
+    z-index:9999;
+
+}
+
+#test{
+    height: 168px;
+    width:  187px;
+    border: 1px solid;
+}
+
+#player-name{
+
+}
+
+.player-name{
+  padding: 20px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+
+.player-name:focus,
+.player-name.focus {
+  border: solid 5px #969696;
+}
+
+
+#start-button{
+
+}
+
+.start-button {
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+.start-button:hover {
+    background-color:#5cbf2a;
+}
+
+.start-button:active {
+    position:relative;
+    top:1px;
+}
+
+#container-title{
+    text-align: center;
+    margin-top:50px;
+}
+
+#game-title{
+    margin:0;
+    color:#FEFEFE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+
+#lives-container{
+    float:left;
+    width:200px;
+    margin:5px;
+}
+
+.life{
+    height:50px;
+    width:50px;
+    background-image: url('../img/bacon.png');   
+    float:left;
+}
+
+#play-again-container{
+    position:absolute;
+    width:450px;
+    z-index:9999;
+    left:200px;
+    top:200px;
+    border:1px solid;
+    background-color:#FEFEFE;
+    text-align:center;
+
+    display: none;
+}
+
+
+#scoreboard{
+    margin:5px;
+    padding:5px;
+    border: 1px solid;
+    border-radius:10px;
+    width:160px;
+    background-color: #FEFEFE;
+
+    float:right;
+}
+
+#scoreboard-america-container{
+
+}
+
+#scoreboard-america{
+    background-image: url('../img/america.png');
+    background-repeat:no-repeat;
+    float:left;
+    width:100px;
+    height:35px;
+    padding-left:40px;
+}
+
+#score-america{
+    float:left;
+}
+
+#scoreboard-government-container{
+
+}
+
+#scoreboard-government{
+    background-image: url('../img/govt.png');    
+    background-repeat:no-repeat;    
+    float:left;
+    width:100px;
+    height:35px;
+    padding-left:40px;
+
+
+}
+
+#score-government{
+    float: left;
+}
+
+
+#office{
+	width:800px;	
+    /*height:800px;*/
+    height:720px;
+	background-color: #FEFEFE;
+	border:1px solid;
+    background-image: url('../img/bg.JPG');
+    background-repeat: no-repeat;
+    background-position: 0px -1300px;    
+
+    display:none;   
+
+}
+
+
+.clear{
+    clear:both;
+}
+
+#desk{
+
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    border: 2px solid; 
+    position: absolute;
+    background-color:#FEFEFE;
+
+     /*left:100px;*/ 
+     left:160px; 
+
+    /*left:200px;*/
+
+    top:100;
+    /*
+    margin-left:75px;
+    margin-top:100px;
+	*/
+
+    display:none;   
+
+}
+
+#ron{
+    background-color: #FEFEFE;
+    
+    width: 168px;
+    height: 187px;
+    
+
+    /*
+    width: 100px;
+    height: 100px;
+    */
+
+    background-image: url('../img/ron-med.jpg');
+    position: absolute;
+    
+    /*left: 115px;*/
+    left:115px;
+
+    top: 100px;
+    border:1px solid;
+
+    display:none;   
+
+}
+
+
+#visitor{
+    background-image: url('../img/image.jpg');	
+	/*
+    padding-left:50px;
+	padding-right:60px;	
+	*/
+    border:1px solid;
+	width:122px;
+	/*
+	width:1px;
+	*/
+    height: 131px;
+	background-color: #000000;
+
+    display:none;   
+
+}

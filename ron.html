@@ -1,0 +1,93 @@
+<html>
+
+<head>
+
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+	<link href="css/ron.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+
+<div id="container">
+
+
+	<div id="intro-bg" class="intro">
+
+		<div id="container-title">
+			<h1 id="game-title">Ron's Revenge</h1>
+		</div>
+	
+		<div id="player-container">
+
+			<input type="text" name="player" id="player-name" class="player-name" placeholder="Enter your name"/>
+
+			<button id="start-button" class="start-button">Start</button>
+		</div>
+
+
+		<div id="videoContainer">
+
+			<video preload="preload"  id="video" autoplay="autoplay" loop="loop" controls muted>
+			<source src="img/SwivelChair.webm" type="video/webm"></source>
+			<source src="img/SwivelChair.mp4" type="video/mp4"></source>
+			</video>
+
+		</div>
+
+	</div>
+
+
+
+	<div id="office" class="active-game">
+
+		<div id="lives-container" class="active-game">
+		</div>
+
+
+		<div id="play-again-container">
+			<h1>Don't give up!  America needs you!</h1>
+			<button id="btn-playagain">Play Again</button>
+		</div>
+
+		<div id="scoreboard" class="active-game">
+			
+			<div id="scoreboard-america-container">			
+				<div id="scoreboard-america" class="active-game">America</div> 
+				<div id="score-america" class="active-game">0</div>
+			</div>		
+			
+			<div class="clear"></div>
+
+			<div id="scoreboard-government-container">
+				<div id="scoreboard-government" class="active-game">Government</div> 
+				<div id="score-government" class="active-game">0</div>
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+		
+		<div id="visitor" class="active-game"></div>
+
+		<div id="desk" class="active-game">
+
+			<div id="ron" class="active-game">
+			</div>
+
+		</div>
+	</div>
+
+
+</div>
+
+<script src="js/ron.js"></script> 
+
+
+</body>
+
+</html>
